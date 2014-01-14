@@ -1,0 +1,11 @@
+{
+  "name": "TrollSounds",
+  "description": "Esta aplicacion sirve para trollear a tus amigos con divertidos sonidos",
+  "launch_path": "index.html",
+  "orientation": ["portrait"],
+  "developer": {
+    "name": "Sebastian Tellez ",
+    "url": "http://www.twitter.com/gorrotowi"
+  },
+  "default_locale": "es"
+}

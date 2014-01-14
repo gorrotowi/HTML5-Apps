@@ -1,4 +1,4 @@
-<!DOCTYPE>
+<!DOCTYPE HTML>
 <html>
 <head>
 
@@ -8,11 +8,38 @@
 			meta.setAttribute('content','initial-scale='+ (1/window.devicePixelRatio) + ',user-scalable=no');
 
 			document.getElementsByTagName('head')[0].appendChild(meta);
-	</script><!-- meta! -->
+</script><!-- meta! -->
 
+<link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+<script src="troll.js"></script>
 <title>Troll Sound</title>
 </head>
 
 <body>
+
+<p class="titleTroll">TROLL Sound</p>
+
+<div id="lawDiv">
+<img id="lawImg" src="images/icono1.png" style="border:hidden;" onClick="lawSound()">
+<p class="description">law & order</p>
+</div>
+
+<div id="badumDiv">
+<img id="badumImg" src="images/icono3.png" style="border:hidden;" onClick="badumSound()">
+<p class="description">ba dum tss</p>
+</div>
+
+<img id="trollImg" src="images/trollface.png" style="border:hidden;" onClick="trollSound()">
+
+<div id="clampDiv">
+<img id="clampImg" src="images/icono4.png" style="border:hidden;" onClick="clampsSound()">
+<p class="description">clamps</p>
+</div>
+
+<div id="wrongDiv" >
+<img id="wrongImg" src="images/icono5.png" style="border:hidden;" onClick="wrongSound()">
+<p class="description">wrong</p>
+</div>
+
 </body>
 </html>
