@@ -1,0 +1,15 @@
+{
+  "name": "Calculadora recibo de honorarios",
+  "description": "Sencilla calculadora para saber los impuestos y cantidades que debemos colocar a la hora de generar un recibo de honorarios",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/images/icon_128.png",
+    "60": "/images/icon_60.png"
+  },
+  "version": "1.0",
+  "developer": {
+    "name": "Sebastian Tellez",
+    "url": "http://www.twitter.com/gorrotowi"
+  },
+  "default_locale": "en"
+}

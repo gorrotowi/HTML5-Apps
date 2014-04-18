@@ -1,0 +1,84 @@
+<!DOCTYPE>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+    
+  <link rel="stylesheet" href="css/FFOSJQM.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.2.min.css" />
+  <script src="js/jquery.js"></script> 
+  <script src="js/jquery.mobile-1.4.2.min.js"></script> 
+  <script src="js/index.js"></script>
+ 
+    
+<title>Calculadora de recibos de Honorarios</title>
+</head>
+<body>
+    
+   <div data-role="page">
+    
+       <div data-role="header">
+        <h4>Calculadora</h4>
+           
+        <a href="#info" class="ui-btn ui-shadow ui-btn-right ui-corner-all" data-transition="slideup">info</a>
+       </div>
+       
+       <div role="main" class="ui-content">
+       
+           <h4>Introduce el total deseado:</h4>
+           <input type="number" name="importeDes" pattern="[0-9]*" id="importeDes" placeholder="5000" onkeyup="calcular()" >
+           
+           <div class="ui-field-contain">
+           <label>Importe:</label>
+           <label id="importe">$</label>
+           </div>
+           <div class="ui-field-contain">
+           <label>IVA (16%):</label>
+           <label id="iva">$</label>
+           </div>
+           <div class="ui-field-contain">
+           <label>Subtotal:</label>
+           <label id="subtotal">$</label>
+           </div>
+           <div class="ui-field-contain">
+           <label>Retención IVA:</label>
+           <label id="retIva">$</label>
+           </div>
+           <div class="ui-field-contain">
+           <label>Retención ISR (10%):</label>
+           <label id="retIsr">$</label>
+           </div>
+           <div class="ui-field-contain">
+           <label>Total:</label>
+           <label id="total">$</label>
+           </div>
+       
+           <a class="ui-btn" onclick="calcular()">Calcular</a>
+           
+       </div>
+       
+    </div>
+    
+    <div data-role="page" id="info">
+        
+        <div data-role="header">
+            <h1>Informaci&oacute;n</h1>
+        </div>
+    
+        <div class="ui-content">
+            
+            <p>
+            Esta calculadora te servira para poder obtener el iva, el ISR, el subtotal y el IVA retenido, datos importantes cuando estas haciendo tus recibos (comprobantes) de honorarios.
+                <br/> <br/>
+                <strong>NOTA:</strong> Recuerda que esta calculadora solo sirve para personas fisicas que hacen recibos a personas morales.
+            </p>
+            
+            <a href="#" data-rel="back" class="ui-btn">Aceptar</a>
+        
+        </div>
+        
+    </div>
+
+</body>
+</html>
