@@ -1,0 +1,14 @@
+#contentMap {
+    height: 160px;
+}
+#mapa {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.lineSeparador{
+	height: 2px;
+	margin: 3px;
+	background-color: #803C96
+}

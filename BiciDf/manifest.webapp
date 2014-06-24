@@ -1,0 +1,15 @@
+{
+  "name": "BiciDF",
+  "description": "No sabes donde hay una estacion, siempre te preguntas si hay espacios disponibles o bicicletas, BiciDF ayuda y siempre te mantiene informado no solo sobre las estaciones mas cercanas a tu ubicacion, tambien te mantiene informado sobre el clima y el estado del aire del Distrito Federal. Usando datos abiertos proporcionados por el Gobierno del Distrito Federal y el API publica de CityBikes, proveemos de información precisa y en tiempo real para que estes seguro y puedas planear tu día rodando en la ciudad.",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/images/icon_128.png",
+    "60": "/images/icon_60.png"
+  },
+  "version": "1.0",
+  "developer": {
+    "name": "Sebastian Tellez",
+    "url": "http://www.twitter.com/gorrotowi"
+  },
+  "default_locale": "en"
+}
